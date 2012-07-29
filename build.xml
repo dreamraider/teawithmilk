@@ -7,11 +7,13 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="address-book" default="default" basedir=".">
-    <description>Builds, tests, and runs the project address-book.</description>
+<project name="order" default="default" basedir=".">
+    <description>Builds, tests, and runs the project order.</description>
+
     <property name="is.war.module" value="true" />
 
     <import file="../../bp-project/main.xml"/>
 
     <target name="all" unless="netbeans.home" depends="clean,default,run"/>
+
 </project>
