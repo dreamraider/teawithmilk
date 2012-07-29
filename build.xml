@@ -12,7 +12,7 @@
 
     <property name="is.war.module" value="true" />
 
-    <import file="../../bp-project/main.xml"/>
+    <import file="../../Desktop/teawithmilk/bp-project/main.xml"/>
 
     <target name="all" unless="netbeans.home" depends="clean,default,run"/>
 
